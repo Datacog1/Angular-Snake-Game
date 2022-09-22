@@ -27,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
   npm install npm@latest -g
   ```
 
-### Installation 
+## Installation 
 
 1. Clone the repo
    ```sh
@@ -41,7 +41,7 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    ng serve
    ```
-##Building the image and container
+## Building the image and container
 
 1. Build the image
 	nerdctl build -t snake-game:v1 .
