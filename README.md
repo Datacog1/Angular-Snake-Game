@@ -27,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
   npm install npm@latest -g
   ```
 
-### Installation
+### Installation 
 
 1. Clone the repo
    ```sh
