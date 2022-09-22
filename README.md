@@ -5,7 +5,7 @@
     Simple Snake Game build using Angular 11. 
 </p>
 
-Checkout the GH Page to play the [game](https://akkitheakhil.github.io/Angular-Snake-Game/) 
+Checkout the GH Page to play the [game](https://github.com/Datacog1/Angular-Snake-Game) 
 
 * Screenshots
 
@@ -41,7 +41,17 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    ng serve
    ```
+##Building the image and container
 
+1. Build the image
+	nerdctl build -t snake-game:v1 .
+2. Running the image on port
+	nerdctl -p 8080:80 snake-game:v1 
+3. Running the image in shell 
+	nerdctl run -it snake-game sh
+
+##For Dowloading my image
+https://hub.docker.com/repository/docker/amnarahman/snake-game
 <!-- CONTACT -->
 ## Contact
 
