@@ -44,11 +44,20 @@ To get a local copy up and running follow these simple example steps.
 ## Building the image and container
 
 1. Build the image
-	nerdctl build -t snake-game:v1 .
+```sh
+   nerdctl build -t snake-game:v1 .
+   ```
+	
 2. Running the image on port
-	nerdctl -p 8080:80 snake-game:v1 
+```sh
+   nerdctl -p 8080:80 snake-game:v1 
+   ```
+	
 3. Running the image in shell 
-	nerdctl run -it snake-game sh
+	
+   ```sh
+  nerdctl run -it snake-game sh
+   ```
 
 ##For Dowloading my image
 https://hub.docker.com/repository/docker/amnarahman/snake-game
